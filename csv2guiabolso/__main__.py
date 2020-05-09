@@ -6,10 +6,9 @@ import click as click
 from csv2guiabolso.guia_bolso import GuiaBolso
 
 @click.command()
-@click.option('--email', prompt=True, help="Email used in your GuiaBolso accou"
-                                           "nt")
+@click.option('--email', prompt=True, help="Email utilizado no Guiabolso")
 @click.option('--password', prompt=True, hide_input=True)
-@click.option('--file', default=None)
+@click.option('--file', default=None, help="Arquivo CSV")
 
 def main(email, password, file):
     """Download GuiaBolso transactions in a csv format."""
