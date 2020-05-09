@@ -55,6 +55,8 @@ Melhorias Futuras
 * Possibilidade de colocar o nome da conta e categoria em vez do ID
 * Tratar os campos de data e valor
 * Exportar as categorias para csv/excel
+* Validar se a conta e categorias existem antes de fazer os lançamentos
+* Possibilidade de o programa colocar automaticamente a categoria "Categorizar" caso o campo não esteja preenchido
 
 Baixando o repositório
 ----------------------
