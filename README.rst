@@ -50,6 +50,12 @@ name;description;statementId;date;categoryId;currency;value
 
 .. image:: docs/exemplo.png
 
+Melhorias Futuras
+----------
+* Possibilidade de colocar o nome da conta e categoria em vez do ID
+* Tratar os campos de data e valor
+* Exportar as categorias para csv/excel
+
 Baixando o repositório
 ----------------------
 
